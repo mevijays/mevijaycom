@@ -23,4 +23,9 @@ Welcome to my personal portfolio website. Here you can find information about my
 View all certifications
 
 ### Blog
-Read my latest posts
+Read my latest posts:
+
+{% assign posts = site.posts | sort: 'date' | reverse | limit: 5 %}
+{% for post in posts %}
+1. [{{ post.title }}]({{ post.url }})
+{% endfor %}
