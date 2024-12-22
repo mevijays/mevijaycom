@@ -1,6 +1,7 @@
 ---
 layout: default
 title: First Blog Post
+permalink: /blog/first-post/
 ---
 
 # First Blog Post
